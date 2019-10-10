@@ -1,15 +1,15 @@
 import React from 'react'
-import FormS2 from './../form-signupc';
+import FormS3 from './../form-signupt';
 
-class SignUpC extends React.Component {
+class SignUpT extends React.Component {
     render() {
         return (
             <div className="signupc">
                 Компанія
-                <FormS2 />
+                <FormS3 />
             </div>
         )
     }
 }
 
-export default SignUpC
+export default SignUpT
