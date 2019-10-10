@@ -1,0 +1,102 @@
+.router-flex{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 10px;
+    text-align: center;
+    height: 90px;
+    background-color: black;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.router-flex li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.router-flex a{
+    text-decoration: none;
+    color: white;
+}
+
+.router-flex a:visited{
+    color: white;
+    text-decoration: NONE;
+}
+
+.router-flex a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.item{
+    position: absolute;
+}
+
+.carousel-caption h3{
+    color: red;
+    font-size: 60px;
+    font-weight: 900;
+    position: relative;
+    top: -330px;
+}
+
+.carousel-caption p{
+    color: red;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+.sign{
+    background-color: grey;
+    border: 1px solid white;
+}
+
+.sign-right{
+    margin-right: 40px;
+}
+
+.map{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+    color: red;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content-photo img{
+    width: 500px;
+    height: 350px;
+    border: 3px solid yellow;
+}
+
+.vistavki-flex{
+    display: flex;
+    margin-left: 50px;
+}
+
+.content{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.content-header{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.vistavki-content-location{
+    padding-bottom: 15px;
+}
