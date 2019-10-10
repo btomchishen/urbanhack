@@ -7,14 +7,19 @@
     height: 90px;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-right: 50px;
 }
 
 a{
     text-decoration: none;
 }
 
-.router-flex p{
+.p1{
     line-height: 70px;
+}
+
+.p2{
+    line-height: 35px;
 }
 
 .router-flex li{
@@ -56,14 +61,17 @@ a{
     font-weight: 600;
 }
 
+.sign1{
+    margin-right: -30px;
+}
 
-.sign{
-    background-color: grey;
-    border: 1px solid white;
+.pa{
+    line-height: 35px;
 }
 
 .sign-right{
     margin-right: 40px;
+    display: flex;
 }
 
 .map{

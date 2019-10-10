@@ -19,19 +19,17 @@ function App() {
         <div>
           <nav className="nav">
             <ul className="router-flex">
-              <div className="logo"><img src={require("./img/logo.png")} alt="Логотип" /></div>
+              <div className="logo"></div>
             
-              <li><Link to="/"><p>Головна</p></Link></li>
-              <li><Link to="/packets">Автомати з<br />спец. пакетами</Link></li>
-              <li><Link to="/treners"><p>Тренери</p></Link></li>
-              <li><Link to="/peretrimka"><p>Перетримка</p></Link></li>
-              <li><Link to="/hospital">Ветеринарні<br />заклади</Link></li>
-              <li><Link to="/vistavki"><p>Виставки</p></Link></li>
-              <li><Link to="/clubs"><p>Клуби</p></Link></li>
-              <div className="sign-right">
-              <li className="sign"><Link to="/signin">Вхід</Link></li>
-              <li className="sign"><Link to="/register">Реєстрація</Link></li>
-              </div>
+              <li><Link to="/"><p className="p1"><img src={require("./img/logo.png")} alt="Логотип" /></p></Link></li>
+              <li><Link to="/packets"><p className="p1">Автомати з спец. пакетами</p></Link></li>
+              <li><Link to="/treners"><p className="p1">Тренери</p></Link></li>
+              <li><Link to="/peretrimka"><p className="p1">Перетримка</p></Link></li>
+              <li><Link to="/hospital"><p className="p1">Ветеринарні заклади</p></Link></li>
+              <li><Link to="/vistavki"><p className="p1">Виставки</p></Link></li>
+              <li><Link to="/clubs"><p className="p1">Клуби</p></Link></li>
+              <li className="sign1 p1"><Link to="/signin">Вхід</Link></li>
+              <li className="sign p1"><Link to="/register">Реєстрація</Link></li>
             </ul>
           </nav>
           <Switch>
@@ -68,7 +66,7 @@ function App() {
       </Router>
 
 
-      <a href="tel: +38096869558" id="popup__toggle" ><div class="circlephone" ></div><div class="circle-fill" ></div><div class="img-circle"><div class="img-circleblock"></div></div></a>
+      {/*<a href="tel: +38096869558" id="popup__toggle" ><div class="circlephone" ></div><div class="circle-fill" ></div><div class="img-circle"><div class="img-circleblock"></div></div></a>*/}
 
     </div>
   );
