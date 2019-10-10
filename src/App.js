@@ -22,7 +22,7 @@ function App() {
               <div className="logo"><img src={require("./img/logo.png")} alt="Логотип" /></div>
             
               <li><Link to="/"><p>Головна</p></Link></li>
-              <li><Link to="/area"><p>Місця вигулу</p></Link></li>
+             
               <li><Link to="/packets">Автомати з<br />спец. пакетами</Link></li>
               <li><Link to="/peretrimka"><p>Перетримка</p></Link></li>
               <li><Link to="/hospital">Ветеринарні<br />заклади</Link></li>
@@ -68,11 +68,10 @@ function App() {
       </Router>
 
 
-      
+      <a href="tel: +38096869558" id="popup__toggle" ><div class="circlephone" ></div><div class="circle-fill" ></div><div class="img-circle"><div class="img-circleblock"></div></div></a>
 
-    <div className="footer">
-      <p>Copyright 2019 Bohdan Tomchyshen - URBANHACK</p>
-    </div>
+
+  
 
     </div>
   );

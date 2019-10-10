@@ -14,7 +14,7 @@ class Register extends React.Component {
                 <div className="register-flex">
                     <div className="register">
                         <Router>
-                            <Link to="/signupp"><div className="dws"><a href="#" class="button">Для перетримника</a></div></Link>
+                            <Link to="/signupp"><div className="dws but1"><a href="#" class="button">Для перетримника</a></div></Link>
                             <Link to="/signupc"><div className="dws"><a href="#" class="button">Для компанії</a></div></Link>
                             <Switch>
                                 <Route path="/signupp">
