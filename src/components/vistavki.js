@@ -10,14 +10,14 @@ class Vistavki extends React.Component {
                 <div className="vistavki-content">
                     <div className="vistavki-flex">
                         <div className="content-photo">
-                            <img src={require("../img/vistavka/1.jpeg")} />
+                            <img src={require("../img/vistavka/1.jpeg")} alt="Виставка" />
                         </div>
                         <div className="content">
                         <div className="content-header">
                             Виставки собак усіх порід "Кубок Поділля - 2019" та "Кубок Хмельнничини - 2019"
                     </div>
                         <div className="vistavki-content-date">
-
+                            Дата проведення: <strong>12 жовтня, 10:00</strong>
                         </div>
                         <div className="vistavki-content-phone">
                             Довідки за номером: <strong>+38-067-925-9656</strong>

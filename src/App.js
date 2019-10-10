@@ -9,7 +9,7 @@ import Vistavki from './components/vistavki';
 import Peretrimka from './components/peretrimka';
 import Packets from './components/packets';
 import SignIn from './components/signin';
-import SignUp from './components/signup';
+import Register from './components/register';
 
 function App() {
   return (
@@ -19,16 +19,18 @@ function App() {
         <div>
           <nav className="nav">
             <ul className="router-flex">
-              <li><Link to="/">Головна</Link></li>
-              <li><Link to="/area">Місця вигулу</Link></li>
+              <div className="logo"><img src={require("./img/logo.png")} alt="Логотип" /></div>
+            
+              <li><Link to="/"><p>Головна</p></Link></li>
+              <li><Link to="/area"><p>Місця вигулу</p></Link></li>
               <li><Link to="/packets">Автомати з<br />спец. пакетами</Link></li>
-              <li><Link to="/peretrimka">Перетримка</Link></li>
+              <li><Link to="/peretrimka"><p>Перетримка</p></Link></li>
               <li><Link to="/hospital">Ветеринарні<br />заклади</Link></li>
-              <li><Link to="/vistavki">Виставки</Link></li>
-              <li><Link to="/clubs">Клуби</Link></li>
+              <li><Link to="/vistavki"><p>Виставки</p></Link></li>
+              <li><Link to="/clubs"><p>Клуби</p></Link></li>
               <div className="sign-right">
               <li className="sign"><Link to="/signin">Вхід</Link></li>
-              <li className="sign"><Link to="/signup">Реєстрація</Link></li>
+              <li className="sign"><Link to="/register">Реєстрація</Link></li>
               </div>
             </ul>
           </nav>
@@ -54,8 +56,8 @@ function App() {
             <Route path="/signin">
               <SignIn />
             </Route>
-            <Route path="/signout">
-              <SignUp />
+            <Route path="/register">
+              <Register />
             </Route>
             <Route path="/">
               <Home />
@@ -68,7 +70,9 @@ function App() {
 
       
 
-
+    <div className="footer">
+      <p>Copyright 2019 Bohdan Tomchyshen - URBANHACK</p>
+    </div>
 
     </div>
   );

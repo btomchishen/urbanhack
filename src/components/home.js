@@ -18,7 +18,7 @@ class Home extends React.Component {
                             <img src={require("..//img/slider/first.jpg")} alt="Chania" width="1540" />
                             <div class="carousel-caption">
                                 <h3>ЗООСВІТ ХМЕЛЬНИЦЬКОГО</h3>
-                                <p>Домашні улюбленці дуже люблять гуляти, а чи знаєте ви що є спеціальні місця вигулу?</p>
+                                <p>Хмельницький - найкомфортніше місто для людей та тварин.</p>
                             </div>
                         </div>
 
@@ -27,7 +27,7 @@ class Home extends React.Component {
 
                             <div class="carousel-caption">
                                 <h3>ЗООСВІТ ХМЕЛЬНИЦЬКОГО</h3>
-                                <p>Підійшов час робити привівку? Знаходьте найкращі ветеринарні заклади не виходячи із дому!</p>
+                                <p>Хмельницький - найкомфортніше місто для людей та тварин.</p>
                             </div>
                         </div>
 
@@ -36,8 +36,7 @@ class Home extends React.Component {
 
                             <div class="carousel-caption">
                                 <h3>ЗООСВІТ ХМЕЛЬНИЦЬКОГО</h3>
-                                <p>Полюбляєте брати участь у виставках, але не знаєте коли саме вони проходять?
-                                     Слідкуйте за виставками у вашому місті тут!</p>
+                                <p>Хмельницький - найкомфортніше місто для людей та тварин.</p>
                             </div>
                         </div>
                     </div>
@@ -54,24 +53,29 @@ class Home extends React.Component {
 
 
                 <div className="home-vistavki-content">
-                    <div className="vistavki-content-header">
-
+                    <div className="home-vistavka">
+                        Найближча виставка:
                     </div>
-                    <div className="vistavki-content-date">
-
+                    <div className="home-vistavka-text">
+                        <div className="vistavki-content-header">
+                            Виставки собак усіх порід "Кубок Поділля - 2019" та "Кубок Хмельнничини - 2019"
                     </div>
-                    <div className="vistavki-content-phone">
-
-                    </div>
-                    <div className="vistavki-content-location">
-
+                        <div className="vistavki-content-date">
+                            Дата проведення: <strong>12 жовтня, 10:00</strong>
+                        </div>
+                        <div className="vistavki-content-phone">
+                            Довідки за номером: <strong>+38-067-925-9656</strong>
+                        </div>
+                        <div className="vistavki-content-location">
+                            Розташування: <strong>Стадіон Хмельницького Національного Університета</strong>
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="map">
-                <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1TLV2f4Fr-NF_quHDd3B3IOWTe2Quj33F"
-                 width="1300" height="480" title="map"></iframe>
+                    <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1TLV2f4Fr-NF_quHDd3B3IOWTe2Quj33F"
+                        width="1300" height="480" title="map"></iframe>
                 </div>
             </div>
         )

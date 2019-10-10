@@ -10,6 +10,10 @@
     margin-bottom: 0;
 }
 
+.router-flex p{
+    line-height: 70px;
+}
+
 .router-flex li{
     list-style-type: none;
     color: white;
@@ -63,7 +67,7 @@
 .map{
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .header{
@@ -100,3 +104,102 @@
 .vistavki-content-location{
     padding-bottom: 15px;
 }
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0; bottom: 0;
+}
+
+.home-vistavka{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.home-vistavka-text{
+    text-align: center;
+    font-size: 18px;
+}
+
+.content{
+    margin-bottom: 50px;
+}
+
+.content-flex{
+    display: flex;
+}
+
+.content-text{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.register-photo{
+    text-align: center;
+}
+
+.register-flex{
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.register{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form{
+    margin-bottom: 50px;
+}
+
+.reg{
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.form-bc{
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.button{
+    border: 3px solid #218294;
+    color: #218294;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 400px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.button::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #218294;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+}
+
+.button:hover{
+    color: #fff;
+}
+
+.button:hover::before{
+    left: 0;
+}
+
