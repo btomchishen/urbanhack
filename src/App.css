@@ -8,7 +8,15 @@
     padding-bottom: 0;
     margin-bottom: 0;
     margin-right: 50px;
+    background-color: white;
+    width: 100%;
 }
+
+.item{
+background-color: rgba(0,0,0,0);
+}
+
+
 
 a{
     text-decoration: none;
@@ -16,6 +24,9 @@ a{
 
 .p1{
     line-height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 1;
 }
 
 .p2{
@@ -179,6 +190,7 @@ a{
     padding: 15px;
 }
 
+/*Кнопки реєстрації*/
 
 .button{
     border: 3px solid #218294;
@@ -228,6 +240,10 @@ a{
     margin-bottom: 25px;
 }
 
+/*Кнопки реєстрації*/
+
+
+/*Кнопка виклику*/
 
 #popup__toggle{bottom:25px;right:10px;position:fixed;z-index:999;}
 .img-circle{background-color:#29AEE3;box-sizing:content-box;-webkit-box-sizing:content-box;}
@@ -300,6 +316,9 @@ opacity: .1;}}
     transform-origin: center;
   }
 
+  /*Кнопка виклику*/
+
+
 .content-text-trener{
     font-size: 20px;
     margin-left: 100px;
@@ -310,6 +329,8 @@ body{
     background:#FE1392;
 font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+/*РЕЙТИНГ ТРЕНЕРА*/
 .rating-card{
 padding:10px;
 background-color:#F5F5F5;
@@ -404,3 +425,94 @@ width:10%;
     clear: both;
 }
 
+/*РЕЙТИНГ ТРЕНЕРА*/
+
+
+.peretrimka-location img{
+    max-width: 857px;
+    max-height: 529px;
+    width: 65%;
+    height: 65%;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.peretrimka-location{
+    margin-bottom: -28px;
+}
+
+.peretrimka-top{
+    margin-top: -10px;
+}
+
+.content-photo-packets img{
+    width: 400px;
+    height: 480px;
+    border: 3px solid red;
+    margin-left: 100px;
+}
+
+.checkman img{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.content-packets-info{
+    font-size: 18px;
+}
+
+.content-photo-hospital img{
+    border: 3px solid red;
+    width: 500px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.content-header-hospital{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-info-hospital{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.content-header-hospital{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.hospital-header-ul{
+    font-size: 18px;
+}
+
+.hospital-margin{
+    margin-bottom: 50px;
+}
+
+.carousel-inner{
+    margin-top: -90px;
+}
+
+.item{
+    height: 720px;
+}
+
+.item img{
+    height: 720px;
+}
+
+.club-photo{
+    width: 500px;
+    height: 370px;
+    border: 3px solid red;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.club-content-header{
+    font-size: 26px;
+    text-align: center;
+}

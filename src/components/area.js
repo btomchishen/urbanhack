@@ -14,7 +14,7 @@ class Area extends React.Component {
                 <div className="content">
                     <div className="content-flex">
                         <div className="content-photo">
-                            <img src={require("../img/shelter/shelter.jpg")} alt="Дендропарк" />
+                            <img src={require("../img/shelter/shelter.jpg")} alt="Тренер" />
                         </div>
                         <div className="content-text-trener">
 

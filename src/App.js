@@ -21,13 +21,13 @@ function App() {
             <ul className="router-flex">
               <div className="logo"></div>
             
-              <li><Link to="/"><p className="p1"><img src={require("./img/logo.png")} alt="Логотип" /></p></Link></li>
-              <li><Link to="/packets"><p className="p1">Автомати з спец. пакетами</p></Link></li>
-              <li><Link to="/treners"><p className="p1">Тренери</p></Link></li>
-              <li><Link to="/peretrimka"><p className="p1">Перетримка</p></Link></li>
-              <li><Link to="/hospital"><p className="p1">Ветеринарні заклади</p></Link></li>
-              <li><Link to="/vistavki"><p className="p1">Виставки</p></Link></li>
-              <li><Link to="/clubs"><p className="p1">Клуби</p></Link></li>
+              <li className="p1"><Link to="/"><p className="p1"><img src={require("./img/logo.png")} alt="Логотип" /></p></Link></li>
+              <li className="p1"><Link to="/packets"><p className="p1">Автомати з спец. пакетами</p></Link></li>
+              <li className="p1"><Link to="/treners"><p className="p1">Тренери</p></Link></li>
+              <li className="p1"><Link to="/peretrimka"><p className="p1">Перетримка</p></Link></li>
+              <li className="p1"><Link to="/hospital"><p className="p1">Ветеринарні заклади</p></Link></li>
+              <li className="p1"><Link to="/vistavki"><p className="p1">Виставки</p></Link></li>
+              <li className="p1"><Link to="/clubs"><p className="p1">Клуби</p></Link></li>
               <li className="sign1 p1"><Link to="/signin">Вхід</Link></li>
               <li className="sign p1"><Link to="/register">Реєстрація</Link></li>
             </ul>
