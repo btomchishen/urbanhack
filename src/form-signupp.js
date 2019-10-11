@@ -114,6 +114,10 @@ class FormS1 extends Component {
             onChange={this.handleUserInput}  />
         </div>
         <button type="submit" className="btn btn-primary" disabled={!this.state.formValid}><Link to="/"></Link>Зареєструватися</button>
+        <div className="social">
+          <a href=""><img src={require("./img/google-icon.png")} /></a>
+          <a href=""><img src={require("./img/fb-icon.png")} /></a>
+        </div>
       </form>
     )
   }

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from './components/home';
 
 class Form extends Component {
+ 
+
   constructor (props) {
     super(props);
     this.state = {
@@ -77,7 +79,12 @@ class Form extends Component {
             value={this.state.password}
             onChange={this.handleUserInput}  />
         </div>
-        <Link to="<Home />"><button type="submit" className="btn btn-primary"  disabled={!this.state.formValid}>Зареєструватися</button></Link>
+        
+        <Link to="<Home />"><button type="submit" className="btn btn-primary"  disabled={!this.state.formValid}>Увійти</button></Link>
+        <div className="social">
+          <a href=""><img src={require("./img/google-icon.png")} /></a>
+          <a href=""><img src={require("./img/fb-icon.png")} /></a>
+        </div>
       </form>
     )
   }

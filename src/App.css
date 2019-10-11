@@ -572,11 +572,15 @@ width:10%;
     font-weight: 600;
 }
 
-.form, 
-.form-1{
+.form{
     margin-top: 15px;
     text-align: center;
     margin-top: -325px;
+}
+
+.club-photo{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .register{
@@ -604,6 +608,19 @@ width:10%;
 
 .form-1{
     margin-left: 37%;
+}
+
+.social{
+    display: flex;
+}
+
+.social img{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+details{
+    font-size: 30px;
 }
 
 
