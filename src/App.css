@@ -137,9 +137,14 @@ a{
 
 .home-vistavka{
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     margin-top: 25px;
     margin-bottom: 20px;
+}
+
+.best-trener{
+    background-color: lightgray;
+    margin-bottom: 15px;
 }
 
 .home-vistavka-text{
@@ -491,12 +496,10 @@ width:10%;
     margin-top: -90px;
 }
 
-.item{
-    height: 720px;
-}
 
 .item img{
-    height: 720px;
+    height: 801px;
+    width: 1700px;
 }
 
 .club-photo{
