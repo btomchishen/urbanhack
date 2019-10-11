@@ -59,7 +59,7 @@ class Home extends React.Component {
 
 
                 <div className="home-partner">
-                    <p>ЗА ПІДТРИМКИ<img src={require("../img/logo-kmrada.jpg")} /> ХМЕЛЬНИЦЬКОЇ МІСЬКОЇ РАДИ</p>
+                    <p>ЗА ПІДТРИМКИ<img src={require("../img/logo-kmrada.jpg")} /> ХМЕЛЬНИЦЬКОЇ<br/> МІСЬКОЇ РАДИ</p>
                 </div>
 
                 <div className="home-vistavki-content first-vistavka">

@@ -1,3 +1,12 @@
+.register{
+    margin-top: 10%;
+}
+
+.prosto-flex{
+    display: flex;
+}
+
+
 .router-flex{
     display: flex;
     justify-content: space-around;
@@ -216,6 +225,7 @@ a{
 
 .form{
     margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 .reg{
@@ -566,6 +576,7 @@ width:10%;
 .form-1{
     margin-top: 15px;
     text-align: center;
+    margin-top: -325px;
 }
 
 .register{
@@ -573,7 +584,8 @@ width:10%;
 }
 
 .home-partner{
-    display: flex;
+    
+    text-align: center;
 }
 
 .home-partner img{
