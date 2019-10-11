@@ -58,24 +58,34 @@ class Home extends React.Component {
                 </div>
 
 
-                <div className="home-vistavki-content">
+                <div className="home-partner">
+                    <p>ЗА ПІДТРИМКИ<img src={require("../img/logo-kmrada.jpg")} /> ХМЕЛЬНИЦЬКОЇ МІСЬКОЇ РАДИ</p>
+                </div>
+
+                <div className="home-vistavki-content first-vistavka">
                     <div className="home-vistavka">
-                        Найближча виставка:
+                        Найближча виставка
                     </div>
-                    <div className="home-vistavka-text">
-                        <div className="vistavki-content-header">
-                            Виставки собак усіх порід "Кубок Поділля - 2019" та "Кубок Хмельнничини - 2019"
+                    <div className="home-flex">
+                        <div className="photo1"><img src={require("../img/home-1.jpeg")} /></div>
+                        <div className="home-vistavka-text">
+
+
+                            <div className="vistavki-content-header">
+                                Виставки собак усіх порід "Кубок Поділля - 2019" та "Кубок Хмельнничини - 2019"
                     </div>
-                        <div className="vistavki-content-date">
-                            Дата проведення: <strong>12 жовтня, 10:00</strong>
-                        </div>
-                        <div className="vistavki-content-phone">
-                            Довідки за номером: <strong>+38-067-925-9656</strong>
-                        </div>
-                        <div className="vistavki-content-location">
-                            Розташування: <strong>Стадіон Хмельницького Національного Університета</strong>
+                            <div className="vistavki-content-date">
+                                Дата проведення: <strong>12 жовтня, 10:00</strong>
+                            </div>
+                            <div className="vistavki-content-phone">
+                                Довідки за номером: <strong>+38-067-925-9656</strong>
+                            </div>
+                            <div className="vistavki-content-location">
+                                Розташування: <strong>Стадіон Хмельницького Національного Університета</strong>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
 
@@ -84,26 +94,35 @@ class Home extends React.Component {
                         width="1300" height="480" title="map"></iframe>
         </div>*/}
 
+
+
                 <div className="home-vistavki-content best-trener">
                     <div className="home-vistavka">
                         Найкращий тренер
                     </div>
-                    <div className="home-vistavka-text">
-                        <div className="vistavki-content-header">
-                            Шевчук Андрій Іванович
+                    <div className="home-flex">
+                        <div className="photo1"><img src={require("../img/home-2.jpg")} /></div>
+
+                        <div className="home-vistavka-text home-trener-margin">
+                            <div className="vistavki-content-header">
+                                Шевчук Андрій Іванович
                         </div>
-                        <div className="vistavki-content-date">
-                        Працюю з: <strong>собаками, кішками, папугами будь-якого віку</strong>
-                        </div>
-                        <div className="vistavki-content-phone">
-                            Номер телефону: <strong>+380675966925</strong>
-                        </div>
-                        <div className="vistavki-content-location">
-                            Розташування: <strong>Пілотьска 8</strong>
+                            <div className="vistavki-content-date">
+                                Працюю з: <strong>собаками, кішками, папугами будь-якого віку</strong>
+                            </div>
+                            <div className="vistavki-content-phone">
+                                Номер телефону: <strong>+380675966925</strong>
+                            </div>
+                            <div className="vistavki-content-location">
+                                Розташування: <strong>Пілотьска 8</strong>
+                            </div>
                         </div>
                     </div>
 
+
                 </div>
+               
+
             </div>
         )
     }

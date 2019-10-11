@@ -143,8 +143,47 @@ a{
 }
 
 .best-trener{
-    background-color: lightgray;
+    background-color: rgb(209, 202, 202);
     margin-bottom: 15px;
+}
+
+.first-vistavka{
+    background-color: rgb(221, 217, 217);
+    margin-top: -25px;
+}
+
+.best-trener{
+    margin-top: -25px;
+}
+
+.photo1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.home-vistavka-text{
+    margin-top: 75px;
+}
+
+.home-vistavka{
+    padding-top: 35px;  
+}
+
+.home-flex{
+    display: flex;
+    margin-left: 100px;
+}
+
+.vistavki-content-header{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.home-trener-margin{
+    margin-left: 200px;
 }
 
 .home-vistavka-text{
@@ -531,3 +570,23 @@ width:10%;
 .register{
     margin-left: 20%;
 }
+
+.home-partner{
+    display: flex;
+}
+
+.home-partner img{
+    width: 400px;
+    height: 400px;
+}
+
+.home-partner p{
+    font-size: 55px;
+    margin-left: 15px;
+}
+
+.best-trener{
+    margin-bottom: -10px;
+}
+
+
