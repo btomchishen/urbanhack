@@ -92,6 +92,13 @@ class FormS3 extends Component {
             onChange={this.handleUserInput}  />
         </div>
 
+        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+          <label htmlFor="email">Адреса проведення тренувань</label>
+          <input required className="form-control"
+            placeholder="Адреса"
+            onChange={this.handleUserInput}  />
+        </div>
+
         <div className={`form-group ${this.errorClass(this.state.formErrors.password)}`}>
           <label htmlFor="password">Пароль</label>
           <input type="password" className="form-control" name="password"
@@ -99,7 +106,7 @@ class FormS3 extends Component {
             value={this.state.password}
             onChange={this.handleUserInput}  />
         </div>
-        <Link to="<Home />"><button type="submit" className="btn btn-primary" disabled={!this.state.formValid}>Зареєструватися</button></Link>
+        <button type="submit" className="btn btn-primary" disabled={!this.state.formValid}><Link to="/"></Link>Зареєструватися</button>
       </form>
     )
   }

@@ -4,10 +4,9 @@ import FormS1 from './../form-signupp';
 class SignUpP extends React.Component {
     render() {
         return (
-            <div className="signupp">
-                Перетримник
-                <FormS1 />
-            </div>
+            <div className="form">
+                  <FormS1 />  
+                </div>
         )
     }
 }

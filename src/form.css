@@ -1,5 +1,6 @@
 .demoForm {
 	width: 500px;
 	margin: auto;
+	margin-left: -50px;
 	margin-bottom: 15px;
 }

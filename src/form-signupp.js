@@ -59,7 +59,7 @@ class FormS1 extends Component {
     return (
       <form className="demoForm form-bc">
        
-        <h2>Авторизація</h2>
+        <h2>Реєстрація перетримника</h2>
         <div className="panel panel-default">
           <FormErrors formErrors={this.state.formErrors} />
         </div>
@@ -70,6 +70,42 @@ class FormS1 extends Component {
             value={this.state.email}
             onChange={this.handleUserInput}  />
         </div>
+
+        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+          <label htmlFor="email">ПІБ</label>
+          <input required className="form-control"
+            placeholder="ПІБ"
+            onChange={this.handleUserInput}  />
+        </div>
+
+        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+          <label htmlFor="email">Вік</label>
+          <input required className="form-control"
+            placeholder="Вік"
+            onChange={this.handleUserInput}  />
+        </div>
+
+        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+          <label htmlFor="email">Номер телефону</label>
+          <input required className="form-control"
+            placeholder="Номер"
+            onChange={this.handleUserInput}  />
+        </div>
+
+        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+          <label htmlFor="email">Адреса проживання</label>
+          <input required className="form-control"
+            placeholder="Адреса"
+            onChange={this.handleUserInput}  />
+        </div>
+
+        <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}>
+          <label htmlFor="email">Кого можете взяти</label>
+          <input required className="form-control"
+            placeholder="Собака/кішка/папуга і т.д."
+            onChange={this.handleUserInput}  />
+        </div>
+
         <div className={`form-group ${this.errorClass(this.state.formErrors.password)}`}>
           <label htmlFor="password">Пароль</label>
           <input type="password" className="form-control" name="password"
@@ -77,7 +113,7 @@ class FormS1 extends Component {
             value={this.state.password}
             onChange={this.handleUserInput}  />
         </div>
-        <Link to="<Home />"><button type="submit" className="btn btn-primary"  disabled={!this.state.formValid}>Зареєструватися</button></Link>
+        <button type="submit" className="btn btn-primary" disabled={!this.state.formValid}><Link to="/"></Link>Зареєструватися</button>
       </form>
     )
   }

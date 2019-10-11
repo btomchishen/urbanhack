@@ -66,7 +66,7 @@ function App() {
       </Router>
 
 
-      {/*<a href="tel: +38096869558" id="popup__toggle" ><div class="circlephone" ></div><div class="circle-fill" ></div><div class="img-circle"><div class="img-circleblock"></div></div></a>*/}
+      <a href="tel: +38096869558" id="popup__toggle" ><div class="circlephone" ></div><div class="circle-fill" ></div><div class="img-circle"><div class="img-circleblock"></div></div></a>
 
     </div>
   );

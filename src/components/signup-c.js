@@ -5,8 +5,10 @@ class SignUpC extends React.Component {
     render() {
         return (
             <div className="signupc">
-                Компанія
-                <FormS2 />
+                <div className="form">
+                  <FormS2 />  
+                </div>
+                
             </div>
         )
     }
