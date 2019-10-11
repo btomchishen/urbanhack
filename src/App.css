@@ -562,7 +562,8 @@ width:10%;
     font-weight: 600;
 }
 
-.form{
+.form, 
+.form-1{
     margin-top: 15px;
     text-align: center;
 }
@@ -587,6 +588,10 @@ width:10%;
 
 .best-trener{
     margin-bottom: -10px;
+}
+
+.form-1{
+    margin-left: 37%;
 }
 
 

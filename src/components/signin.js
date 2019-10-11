@@ -8,7 +8,7 @@ class SignIn extends React.Component {
                 <div className="register-photo">
                     <img src={require("../img/signin.png")} alt="Авторизація" />
                 </div>
-                <div className="form">
+                <div className="form-1">
                     <Form />
                 </div>
                 
